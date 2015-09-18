@@ -1,0 +1,27 @@
+package polymor;
+
+
+
+	class A{
+	    public String x(){return "x";}
+	}
+	class B extends A{
+		
+	    public String x(){return "x of B class";}
+	    public String y(){return "y";}
+	}
+	
+	public class poly{
+	    public static void main(String[] args) {
+	    	
+	    	
+	    	
+	        A obj = new B();
+	        
+	        System.out.println(obj.x());
+	        
+	     //  System.out.println(obj.y());
+	       
+	    }
+	}
+
